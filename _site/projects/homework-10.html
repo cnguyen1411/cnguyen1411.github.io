@@ -77,6 +77,10 @@
 
 <p>The idea of this analysis is visualizing the number of licenses which were issued from 1912 to 2022</p>
 <h2 id="figure-1">Figure 1</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="s">"Method"</span> <span class="p">:</span> <span class="n">Bar</span> <span class="n">Chart</span>
+</code></pre></div></div>
+
 <vegachart schema-url="/assets/json/chart1.json" style="width: 100%"></vegachart>
 <center> Figure 1: The number of licenses were issued in 1912 to 2022. Chart created by Chien Nguyen </center>
 
@@ -85,6 +89,12 @@ According to the figure 1, we can see the the license system started recording t
 We can also see that, in the figure one, the most licenses were issued between 1995 to 2000.</p>
 
 <h2 id="figure-2">Figure 2</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="s">"Method"</span> <span class="p">:</span> <span class="n">Scatter</span> <span class="n">Plot</span>
+  <span class="s">"Scheme"</span> <span class="p">:</span> <span class="n">viridis</span>
+  <span class="s">"Variable Colored"</span><span class="p">:</span> <span class="n">Original</span> <span class="n">Issue</span> <span class="n">Date</span> <span class="ow">in</span> <span class="n">Dataset</span>
+</code></pre></div></div>
+
 <vegachart schema-url="/assets/json/scatter2.json" style="width: 100%"></vegachart>
 <center> Figure 2: The visualization of License Type and License Status - Chart created by Chien Nguyen </center>
 <p><br /></p>
@@ -92,13 +102,19 @@ We can also see that, in the figure one, the most licenses were issued between 1
 <p>In the figure 2, I applied Scatter plot to see the status of License Type based on License Status. As we can see that, all the license types have the status not renewed and active, and all this active licenses have the original issue year start from 2008 to now. The DETECTIVE BOARD license looks like got the most terminated after 2015.</p>
 
 <h2 id="figure-3">Figure 3</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="s">"Method"</span> <span class="p">:</span> <span class="n">Heat</span> <span class="n">Map</span> <span class="o">&amp;&amp;</span> <span class="n">Bar</span> <span class="n">Chart</span> 
+  <span class="s">"Color"</span> <span class="p">:</span>  <span class="n">Base</span> <span class="n">on</span> <span class="n">number</span> <span class="n">of</span> <span class="n">Licenses</span> <span class="n">were</span> <span class="n">recorded</span>
+  <span class="s">"transform_filter"</span><span class="p">:</span> <span class="n">Brush</span>
+</code></pre></div></div>
+
 <vegachart schema-url="/assets/json/dashboard_export.json" style="width: 100%"></vegachart>
 <center> Figure 3: The interacting with user - Chart created by Chien Nguyen </center>
 <p><br />
-To take a look closer, I created the chart that let everyone can interact with the license type and license status. The purpose of the figure 3 is you can see the number of license more clearly by looking to the history chart at the right side.
-To use that, just drag the mouse on the heatmap on the left side, the data will automatically of date on the right chart.</p>
+To take a look closer, I created the interactive charts that let everyone can interact with the license type and license status. The purpose of the figure 3 is you can see the number of license more clearly by looking to the history chart at the right side.
+To use that, just drag the mouse on the heatmap on the left side, the data will automatically of date on the right chart. You can drag one box or many boxes in the heatmap and the result will show you on the left chart.</p>
 
-<h3 id="additional-information-click-the-buttons-bellow-to-see-the-dataset-and-my-code-thanks-for-reading">Additional information, click the buttons bellow to see the dataset and my code. Thanks for reading.</h3>
+<h3 id="additional-informations-click-the-buttons-bellow-to-see-the-dataset-and-my-code-thanks-for-reading">Additional informations, click the buttons bellow to see the dataset and my code. Thanks for reading.</h3>
 
 <div class="left">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/licenses_fall2022.csv">

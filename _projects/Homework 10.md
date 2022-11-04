@@ -13,8 +13,15 @@ custom_js:
 
 # Homework 10 - Group 3
 
+
+
 The idea of this analysis is visualizing the number of licenses which were issued from 1912 to 2022
 ## Figure 1
+
+```python
+  "Method" : Bar Chart
+```
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
  <center> Figure 1: The number of licenses were issued in 1912 to 2022. Chart created by Chien Nguyen </center>
 
@@ -23,6 +30,13 @@ According to the figure 1, we can see the the license system started recording t
 We can also see that, in the figure one, the most licenses were issued between 1995 to 2000.
 
 ## Figure 2
+
+```python
+  "Method" : Scatter Plot
+  "Scheme" : viridis
+  "Variable Colored": Original Issue Date in Dataset
+```
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/scatter2.json" style="width: 100%"></vegachart>
  <center> Figure 2: The visualization of License Type and License Status - Chart created by Chien Nguyen </center>
 <br />
@@ -31,14 +45,21 @@ In the figure 2, I applied Scatter plot to see the status of License Type based 
 
 
 ## Figure 3
+
+```python
+  "Method" : Heat Map && Bar Chart 
+  "Color" :  Base on number of Licenses were recorded
+  "transform_filter": Brush
+```
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard_export.json" style="width: 100%"></vegachart>
 <center> Figure 3: The interacting with user - Chart created by Chien Nguyen </center>
 <br />
-To take a look closer, I created the chart that let everyone can interact with the license type and license status. The purpose of the figure 3 is you can see the number of license more clearly by looking to the history chart at the right side.
-To use that, just drag the mouse on the heatmap on the left side, the data will automatically of date on the right chart. 
+To take a look closer, I created the interactive charts that let everyone can interact with the license type and license status. The purpose of the figure 3 is you can see the number of license more clearly by looking to the history chart at the right side.
+To use that, just drag the mouse on the heatmap on the left side, the data will automatically of date on the right chart. You can drag one box or many boxes in the heatmap and the result will show you on the left chart.
 
 
-### Additional information, click the buttons bellow to see the dataset and my code. Thanks for reading.
+### Additional informations, click the buttons bellow to see the dataset and my code. Thanks for reading.
 
 <div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/licenses_fall2022.csv" text="The Data" %}
