@@ -19,7 +19,7 @@ custom_js:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/visualization.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/visualization-1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/visualization.json" style="width: 100%"></vegachart>
 
 
 ## Search The Data & Methods
