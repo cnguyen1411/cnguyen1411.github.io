@@ -27,7 +27,7 @@ The idea of this analysis is visualizing the number of licenses which were issue
  <center> Figure 1: The number of licenses were issued in 1912 to 2022. Chart created by Chien Nguyen </center>
 
 <br />
-According to the figure 1, we can see the the license system started recording the information from 2012, and the newest data was recorded in 2022.
+According to the figure 1, we can see the the license system started recording the information from 1912, and the newest data was recorded in 2022.
 We can also see that, in the figure one, the most licenses were issued between 1995 to 2000.
 
 ## Figure 2
