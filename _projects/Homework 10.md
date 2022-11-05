@@ -20,6 +20,7 @@ The idea of this analysis is visualizing the number of licenses which were issue
 
 ```python
   "Method" : Bar Chart
+  "Encoding type" : Quantitative for counting | Temporal for Original Issue Date
 ```
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
@@ -35,6 +36,7 @@ We can also see that, in the figure one, the most licenses were issued between 1
   "Method" : Scatter Plot
   "Scheme" : viridis
   "Variable Colored": Original Issue Date in Dataset
+  "Encoding type" : Nominal for License Status and Type | Temporal for Original Issue Date
 ```
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/scatter2.json" style="width: 100%"></vegachart>
@@ -49,6 +51,7 @@ In the figure 2, I applied Scatter plot to see the status of License Type based 
 ```python
   "Method" : Heat Map && Bar Chart 
   "Color" :  Base on number of Licenses were recorded
+  "Encoding type" : Nominal for License Status and Type | Temporal for Original Issue Date
   "transform_filter": Brush
 ```
 
